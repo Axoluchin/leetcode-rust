@@ -1,8 +1,7 @@
 mod easy;
 
 fn main() {
-    let result = easy::is_palindrome::is_palindrome(5);
+    let result = easy::roman_to_integer::roman_to_integer("MCMXCIV".to_string());
 
-    println!("Resultado: {:?}",result);
-    
+    println!("Resultado: {:?}", result);
 }
