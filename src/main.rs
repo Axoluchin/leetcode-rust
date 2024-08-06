@@ -1,7 +1,7 @@
 mod easy;
 
 fn main() {
-    let result = easy::two_sum::two_sum(vec![3,2,3],6);
+    let result = easy::is_palindrome::is_palindrome(5);
 
 
     println!("Resultado: {:?}",result);
